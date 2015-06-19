@@ -1,0 +1,105 @@
+/*
+*
+* Globals
+*
+*/
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ 
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+ 
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+
+#home, #folio, #contact {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home {
+  background: #4ecdc4;
+  color: #365b58;
+}
+
+#home h1 { 
+  font-size: 38pt;
+  font-weight: bolder;
+}
+
+#home h2 { 
+  font-size: 25pt;
+  font-weight: bolder;
+}
+
+#home .content-margin {
+  max-width: 859px;
+  margin: 0 auto;
+}
+
+#folio {
+  background: #2c3e50;
+}
+
+#contact {
+  background: #ecf0f1;
+}
+
+#contact p {
+  color: #4ecdc4;
+  font-size: 15pt;
+  line-height: 17pt;
+  font-weight: bolder;
+}
+
+#header-logo {
+  margin: 90px 0;
+}
+
+.content-margin {
+  margin-top: 60pt !important;
+}
+
+#fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 28pt;
+  background-color: #2c2c2c;
+  color: #bdc3c7;
+}
+
+#fixed-footer p {
+  margin: 6pt 0;
+  font-weight: bolder;
+  font-size: 11pt;
+}
