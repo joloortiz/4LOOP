@@ -86,7 +86,8 @@ html, body {
 }
 
 #folio h1 { 
-  font-size: 38pt;
+  font-family: "dashboardoutlined";
+  font-size: 45pt;
   font-weight: bolder;
   color: #ecf0f1;
 }
@@ -152,7 +153,7 @@ html, body {
 
 .animation__delay {
     /*-webkit-animation-duration: 20s;*/
-    -webkit-animation-delay: 2s;  
+    -webkit-animation-delay: 1.1s;  
 }
 
 .animation__infinite {
