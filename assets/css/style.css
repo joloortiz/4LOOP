@@ -46,18 +46,34 @@ html, body {
 }
 
 #home {
-  background: #4ecdc4;
-  color: #365b58;
+  background: url('../images/home-background.jpg') center center #4ecdc4;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+#logo {
+  width: 200px;
+}
+
+#home-line {
+  margin-left: -2px;
+}
+
+#mustache {
+  margin-top: -36px;
 }
 
 #home h1 { 
-  font-size: 38pt;
+  font-family: "dashboardoutlined";
+  font-size: 56pt;
   font-weight: bolder;
 }
 
 #home h2 { 
-  font-size: 25pt;
+  font-family: "StoneLodge";
+  font-size: 36pt;
   font-weight: bolder;
+  margin-top: -10px;
 }
 
 #home .content-margin {
@@ -132,3 +148,40 @@ html, body {
   position: static;
 }
 
+/* Animation Option */
+
+.animation__delay {
+    /*-webkit-animation-duration: 20s;*/
+    -webkit-animation-delay: 2s;  
+}
+
+.animation__infinite {
+  -webkit-animation-iteration-count: infinite;
+}
+
+/*
+
+PARALLAX
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+*/
