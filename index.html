@@ -47,18 +47,28 @@
 
   </head>
   <body>
+    <!-- Spinner Canvas -->
+    <div id="spinner-canvas">
+      <div class="text-vcenter">
+        <img id="spinner" src="assets/images/spinner-mustache.png" class="animated swing animation__infinite" />
+        <h1>KEEP</h1>
+        <h1>CALM</h1>
+        <h2>LIKE</h2>
+        <h1>A SIR</h1>
+      </div>
+    </div>
 
     <!-- first section - Home -->
     <div id="home" class="home">
       <div class="container-fluid">
         <div class="text-center content-margin">
-          <img id="logo" src="assets/images/logo.png" class="animated bounceIn" /> 
+          <img id="logo" src="assets/images/logo.png" class="animated " /> 
           <h1>WEB &amp; MANAGED SERVICES</h1>
           <img id="home-line" src="assets/images/home-line.png" />
-          <img id="mustache" src="assets/images/mustache.png" class="animated swing animation__infinite animation__delay" />
+          <img id="mustache" src="assets/images/mustache.png" class="animated swing animation__infinite" />
           <h2>4LOOP is a young and creative team based in Cagayan de Oro.</h3>
-          <a href="https://www.facebook.com/4loop.ph"><img src="assets/images/fb-icon.png" class="animated slideInLeft" /></a>
-          <a href="https://twitter.com/4LOOOOP"><img src="assets/images/twitter-icon.png" class="animated slideInRight" /></a>
+          <a href="https://www.facebook.com/4loop.ph"><img id="fb-icon" src="assets/images/fb-icon.png" class="animated" /></a>
+          <a href="https://twitter.com/4LOOOOP"><img id="twitter-icon" src="assets/images/twitter-icon.png" class="animated" /></a>
         </div>
       </div>
     </div>
@@ -152,6 +162,19 @@
     <script src="assets/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
+      $(window).load(function(){
+        //$('#spinner-canvas').fadeOut(1000);
+        $('#spinner-canvas').addClass('animated bounceOut');
+        $('html body').css({'overflow': 'auto'});
+
+        setTimeout(function(){ 
+          $('#logo').addClass('bounceIn');
+          $('#fb-icon').addClass('slideInLeft');
+          $('#twitter-icon').addClass('slideInRight');
+        }, 480);
+        
+      })
+
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var myLatlng = new google.maps.LatLng(8.468806, 124.647017);

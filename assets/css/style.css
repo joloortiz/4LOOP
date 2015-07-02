@@ -8,6 +8,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  overflow:hidden;
 }
  
 /* padded section */
@@ -33,6 +34,28 @@ html, body {
   padding: 0;
 }
 
+#spinner-canvas {
+  display: table;
+  background: #4ecdc4;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 999999;
+  color: #fff;
+}
+
+#spinner {
+  margin-bottom: 20px;
+}
+
+#spinner-canvas h2 {
+  font-size: 45px;
+  margin: 0px;
+}
+
+#spinner-canvas h1, h2 {
+  line-height: .80;
+} 
 
 #home, #folio, #contact {
   display: table;
@@ -153,7 +176,7 @@ html, body {
 
 .animation__delay {
     /*-webkit-animation-duration: 20s;*/
-    -webkit-animation-delay: 1.1s;  
+    -webkit-animation-delay: 5s;  
 }
 
 .animation__infinite {
