@@ -209,3 +209,48 @@ PARALLAX
 }
 
 */
+
+@media screen and (max-width: 320px){
+
+html, body{
+  overflow: visible;
+}
+
+.content-margin{
+margin-top:40pt !important;
+}
+
+#home .content-margin{
+  max-width: 320px;
+  width: auto;  
+}
+
+#logo{
+  width: 130px;
+}
+
+#home-line{
+  width: 100%;  
+}
+
+#home h1{
+  font-size: 28pt;
+}
+
+#home h2{
+  font-size: 19pt;
+  margin-top: -8px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+#mustache{
+  width: 45px;
+}
+
+#fb-icon, #twitter-icon{
+  width: 45px;
+  height: auto;
+}
+
+}
