@@ -216,8 +216,16 @@ html, body{
   overflow: visible;
 }
 
+.container-fluid{
+  padding-bottom: 50px;
+}
+
 .content-margin{
-margin-top:40pt !important;
+  margin-top:40pt !important;
+}
+
+#home{
+  height: auto;
 }
 
 #home .content-margin{
@@ -252,5 +260,42 @@ margin-top:40pt !important;
   width: 45px;
   height: auto;
 }
+
+#folio{
+  height: auto;
+}
+
+#folio .carousel-container{
+    width: 100%;
+}
+
+#folio .content-margin{
+  margin-top: 30pt !important;  
+}
+
+#folio h1{
+    margin-bottom: 30px;
+    font-size: 30pt;
+}
+
+#contact .row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header-logo{
+  margin: 30px auto;
+  width: 100%;
+}
+
+#map-canvas{
+  bottom: -120px;  
+}
+
+#contact p{ 
+  font-size: 17px;
+  margin-bottom: 21px;
+}   
+
 
 }
