@@ -210,6 +210,439 @@ PARALLAX
 
 */
 
+/*1024px*/
+
+
+@media screen and (max-width:1024px){
+
+#home{
+  padding-bottom: 50px;
+}
+
+#map-canvas{
+  position: relative !important;
+  bottom: 0;
+  top:55px;
+}
+
+}
+
+
+
+@media screen and (max-width:1000px){
+
+#contact .row.contact-info div.col-md-4{
+width:33%;
+min-height: 75px;
+float: left;
+}
+
+.content-margin {
+  margin-top: 40pt !important;
+}
+
+#folio{
+  height:auto;
+}
+
+}
+
+/*768px*/
+
+@media screen and (max-width: 768px){
+
+html, body{
+  overflow: visible;
+}
+
+.container-fluid{
+  padding-bottom: 50px;
+}
+
+.content-margin{
+  margin-top:30pt !important;
+}
+
+#home{
+  height: auto;
+}
+
+#home .content-margin{
+  max-width: 100%;
+  width: auto;  
+}
+
+#logo{
+  width: 150px;
+}
+
+#home-line{
+  width: 100%;  
+}
+
+#home h1{
+  font-size: 32pt;
+}
+
+#home h2{
+  font-size: 20pt;
+  margin-top: 0px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+#mustache{
+  width: 90px;
+}
+
+#fb-icon, #twitter-icon{
+  width: 45px;
+  height: auto;
+}
+
+#folio{
+  height: auto;
+}
+
+#folio .carousel-container{
+    width: 100%;
+}
+
+#folio .content-margin{
+  margin-top: 30pt !important;  
+}
+
+#folio h1{
+    margin-bottom: 30px;
+    font-size: 30pt;
+}
+
+#contact .container-fluid{
+  padding: 0;
+}
+
+#contact .row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contact .row.contact-info div.col-md-4{
+width:33%;
+min-height: 75px;
+float: left;
+}
+
+/*#contact .row.contact-info div.col-md-4:last-child{
+width: 100%;
+ min-height: initial;
+}
+
+#contact .row.contact-info div.col-md-4:last-child p{
+margin-bottom: 10px;
+margin-top: 10px;
+}*/
+
+#header-logo{
+  margin: 30px auto;
+  width: 55%;
+}
+
+#map-canvas{
+  bottom: 0px;  
+  top:15px;
+  position: relative !important;
+}
+
+#contact p{ 
+  font-size: 15px;
+  margin-bottom: 21px;
+  line-height: 18px;
+}   
+
+#fixed-footer{
+  height: auto;
+  position: relative;
+}
+
+#fixed-footer .container{
+  padding: 5px 15px;
+}
+
+#fixed-footer p{
+    margin: 5pt 0;
+    font-size: 10pt;
+}
+
+
+}
+
+
+
+
+/*640px*/
+
+@media screen and (max-width: 640px){
+
+html, body{
+  overflow: visible;
+}
+
+.container-fluid{
+  padding-bottom: 50px;
+}
+
+.content-margin{
+  margin-top:30pt !important;
+}
+
+#home{
+  height: auto;
+}
+
+#home .content-margin{
+  max-width: 100%;
+  width: auto;  
+}
+
+#logo{
+  width: 150px;
+}
+
+#home-line{
+  width: 100%;  
+}
+
+#home h1{
+  font-size: 32pt;
+}
+
+#home h2{
+  font-size: 20pt;
+  margin-top: 0px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+#mustache{
+  width: 90px;
+}
+
+#fb-icon, #twitter-icon{
+  width: 45px;
+  height: auto;
+}
+
+#folio{
+  height: auto;
+}
+
+#folio .carousel-container{
+    width: 100%;
+}
+
+#folio .content-margin{
+  margin-top: 30pt !important;  
+}
+
+#folio h1{
+    margin-bottom: 30px;
+    font-size: 30pt;
+}
+
+#contact .container-fluid{
+  padding: 0;
+}
+
+#contact .row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contact .row.contact-info div.col-md-4{
+width:33%;
+min-height: 75px;
+float: left;
+}
+
+/*#contact .row.contact-info div.col-md-4:last-child{
+width: 100%;
+ min-height: initial;
+}
+
+#contact .row.contact-info div.col-md-4:last-child p{
+margin-bottom: 10px;
+margin-top: 10px;
+}*/
+
+#header-logo{
+  margin: 30px auto;
+  width: 55%;
+}
+
+#map-canvas{
+  bottom: 0px;  
+  top:15px;
+  position: relative !important;
+}
+
+#contact p{ 
+  font-size: 15px;
+  margin-bottom: 21px;
+  line-height: 18px;
+}   
+
+#fixed-footer{
+  height: auto;
+  position: relative;
+}
+
+#fixed-footer .container{
+  padding: 5px 15px;
+}
+
+#fixed-footer p{
+    margin: 5pt 0;
+    font-size: 10pt;
+}
+
+
+}
+
+
+
+/*480px*/
+
+
+@media screen and (max-width: 480px){
+
+html, body{
+  overflow: visible;
+}
+
+.container-fluid{
+  padding-bottom: 50px;
+}
+
+.content-margin{
+  margin-top:40pt !important;
+}
+
+#home{
+  height: auto;
+}
+
+#home .content-margin{
+  max-width: 100%;
+  width: auto;  
+}
+
+#logo{
+  width: 130px;
+}
+
+#home-line{
+  width: 100%;  
+}
+
+#home h1{
+  font-size: 28pt;
+}
+
+#home h2{
+  font-size: 19pt;
+  margin-top: -8px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+}
+
+#mustache{
+  width: 45px;
+}
+
+#fb-icon, #twitter-icon{
+  width: 45px;
+  height: auto;
+}
+
+#folio{
+  height: auto;
+}
+
+#folio .carousel-container{
+    width: 100%;
+}
+
+#folio .content-margin{
+  margin-top: 30pt !important;  
+}
+
+#folio h1{
+    margin-bottom: 30px;
+    font-size: 30pt;
+}
+
+#contact .container-fluid{
+  padding: 0;
+}
+
+#contact .row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contact .row.contact-info div.col-md-4{
+width:50%;
+min-height: 75px;
+float: left;
+}
+
+#contact .row.contact-info div.col-md-4:last-child{
+width: 100%;
+ min-height: initial;
+}
+
+#contact .row.contact-info div.col-md-4:last-child p{
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+#header-logo{
+  margin: 30px auto;
+  width: 93%;
+}
+
+#map-canvas{
+  bottom: 0px;  
+  top:15px;
+  position: relative !important;
+}
+
+#contact p{ 
+  font-size: 15px;
+  margin-bottom: 21px;
+  line-height: 18px;
+}   
+
+#fixed-footer{
+  height: auto;
+  position: relative;
+}
+
+#fixed-footer .container{
+  padding: 5px 15px;
+}
+
+#fixed-footer p{
+    margin: 5pt 0;
+    font-size: 9pt;
+}
+
+
+}
+
+
+/*320px*/
+
 @media screen and (max-width: 320px){
 
 html, body{
@@ -278,6 +711,10 @@ html, body{
     font-size: 30pt;
 }
 
+#contact .container-fluid{
+  padding: 0;
+}
+
 #contact .row{
   width: 100%;
   margin: 0 auto;
@@ -285,17 +722,35 @@ html, body{
 
 #header-logo{
   margin: 30px auto;
-  width: 100%;
+  width: 93%;
 }
 
 #map-canvas{
-  bottom: -120px;  
+  bottom: 0px;  
+  top:15px;
+  position: relative !important;
 }
 
 #contact p{ 
-  font-size: 17px;
+  font-size: 14px;
   margin-bottom: 21px;
+  font-family: sans-serif;
+  line-height: 18px;
 }   
+
+#fixed-footer{
+  height: auto;
+  position: relative;
+}
+
+#fixed-footer .container{
+  padding: 2px 15px;
+}
+
+#fixed-footer p{
+    margin: 5pt 0;
+    font-size: 8pt;
+}
 
 
 }
