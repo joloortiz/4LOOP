@@ -8,7 +8,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  overflow:hidden;
+  overflow: hidden;
+}
+
+body {
+  position: relative
 }
  
 /* padded section */
@@ -38,7 +42,7 @@ html, body {
   display: table;
   background: #4ecdc4;
   position: absolute;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   z-index: 999999;
   color: #fff;
@@ -59,7 +63,7 @@ html, body {
 
 #home, #folio, #contact {
   display: table;
-  height: 100%;
+  height: 100vh;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -220,9 +224,10 @@ PARALLAX
 }
 
 #map-canvas{
-  position: relative !important;
+  position: absolute !important;
   bottom: 0;
-  top:55px;
+  left: 0;
+  right: 0;
 }
 
 }
@@ -252,7 +257,7 @@ float: left;
 @media screen and (max-width: 768px){
 
 html, body{
-  overflow: visible;
+  overflow: hidden;
 }
 
 .container-fluid{
@@ -348,9 +353,10 @@ margin-top: 10px;
 }
 
 #map-canvas{
-  bottom: 0px;  
-  top:15px;
-  position: relative !important;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #contact p{ 
@@ -384,7 +390,7 @@ margin-top: 10px;
 @media screen and (max-width: 640px){
 
 html, body{
-  overflow: visible;
+  overflow: hidden;
 }
 
 .container-fluid{
@@ -480,9 +486,10 @@ margin-top: 10px;
 }
 
 #map-canvas{
-  bottom: 0px;  
-  top:15px;
-  position: relative !important;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #contact p{ 
@@ -516,7 +523,7 @@ margin-top: 10px;
 @media screen and (max-width: 480px){
 
 html, body{
-  overflow: visible;
+  overflow: hidden;
 }
 
 .container-fluid{
@@ -528,7 +535,7 @@ html, body{
 }
 
 #home{
-  height: auto;
+  height: 100vh;
 }
 
 #home .content-margin{
@@ -612,9 +619,11 @@ margin-top: 10px;
 }
 
 #map-canvas{
-  bottom: 0px;  
-  top:15px;
-  position: relative !important;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 220px;
 }
 
 #contact p{ 
@@ -646,7 +655,7 @@ margin-top: 10px;
 @media screen and (max-width: 320px){
 
 html, body{
-  overflow: visible;
+  overflow: hidden;
 }
 
 .container-fluid{
@@ -658,7 +667,7 @@ html, body{
 }
 
 #home{
-  height: auto;
+  height: 100vh;
 }
 
 #home .content-margin{
@@ -726,9 +735,10 @@ html, body{
 }
 
 #map-canvas{
-  bottom: 0px;  
-  top:15px;
-  position: relative !important;
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #contact p{ 
