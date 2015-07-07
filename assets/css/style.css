@@ -150,7 +150,7 @@ body {
 }
 
 .content-margin {
-  margin-top: 60pt !important;
+  margin-top: 5% !important;
 }
 
 #fixed-footer {
@@ -357,6 +357,7 @@ margin-top: 10px;
   bottom: 0;
   left: 0;
   right: 0;
+  height: calc(100% / 3.80);
 }
 
 #contact p{ 
@@ -623,7 +624,7 @@ margin-top: 10px;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 220px;
+  height: calc(100% / 3.80);
 }
 
 #contact p{ 
@@ -739,6 +740,7 @@ html, body{
   bottom: 0;
   left: 0;
   right: 0;
+  height: calc(100% / 3.80);
 }
 
 #contact p{ 
