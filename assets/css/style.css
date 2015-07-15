@@ -136,7 +136,7 @@ body {
 }
 
 #map-canvas {
-  height: 318px;
+  height: 33%;
   position: absolute !important;
   bottom: 37px;
   left: 0;
